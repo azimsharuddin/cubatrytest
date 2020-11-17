@@ -11,6 +11,7 @@ body {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 10px;
+  margin: 50px;
 }
 
 /* Create two columns that float next to eachother */
@@ -34,3 +35,18 @@ body {
     width: 100%;
     margin-top: 0;
   }
+
+/*nk align icon dgn font
+.material-icons{
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.class-email, .class-location, .class-call{
+  vertical-align: middle;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+}
+*/

@@ -1,0 +1,16 @@
+img{
+  width: 100%;
+  height: auto;
+}
+
+button{
+  -webkit-border-radius: 17;
+  -moz-border-radius: 17;
+  border-radius: 17px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 27px;
+  background: #ec9631;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
