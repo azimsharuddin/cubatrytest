@@ -1,3 +1,5 @@
+
+
 img{
   width: 100%;
   height: auto;
@@ -13,4 +15,14 @@ button{
   background: #ec9631;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+}
+
+.header, .button{
+  text-align: center;
+}
+
+.column{
+  float: left;
+  width: 25%;
+  padding: 0 10px;
 }
