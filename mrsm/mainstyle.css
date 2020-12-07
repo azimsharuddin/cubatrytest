@@ -26,3 +26,20 @@ button{
   width: 25%;
   padding: 0 10px;
 }
+
+.row{
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.card{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer{
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}

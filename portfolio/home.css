@@ -42,6 +42,9 @@ table {
 	border-spacing: 0;
 }
 /*===================== end css reset =====================*/
+body{
+
+}
 
 *{
   box-sizing: border-box;
@@ -89,6 +92,8 @@ footer{
   text-align: center;
   font-family: 'Bungee Shade';
   font-size: 22px;
+	margin-top: 20%;
+	margin-bottom: 20%;
 }
 
 /*typwriter effect*/
@@ -128,6 +133,9 @@ footer{
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
+	margin: 20px;
+	/*margin-left: 2em;*/
+	/*margin-right: 2em;*/
 }
 
 .html {width: 90%; background-color: #ef6026;}
