@@ -43,6 +43,13 @@ table {
 }
 /*===================== end css reset =====================*/
 
+* {
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+	font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
 img{
   width: 100%;
   height: auto;
@@ -60,29 +67,32 @@ button{
   text-decoration: none;
 }
 
-.header, .button{
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px 10px;
+  grid-template-areas: "";
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.grid > .card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px 10px;
+  grid-template-areas:
+    ". . . .";
+  /*grid-area: card;*/
+}
+
+header, .button{
   text-align: center;
-}
-
-.column{
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-}
-
-.row{
-  margin-left: -20px;
-  margin-right: -20px;
-}
-
-.card{
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 footer{
-  /*position: fixed;*/
-  width: 100%;
-  text-align: center;
-  background-color: black;
+	text-align: center;
+	background-color: #000000;
+  color: white;
 }
