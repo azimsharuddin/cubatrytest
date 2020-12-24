@@ -67,6 +67,10 @@ button{
   text-decoration: none;
 }
 
+.button{
+	margin-bottom: 10px;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -75,6 +79,7 @@ button{
   grid-template-areas: "";
 	margin-left: 10px;
 	margin-right: 10px;
+	margin-bottom: 10px;
 }
 
 .grid > .card {
@@ -89,6 +94,12 @@ button{
 
 header, .button{
   text-align: center;
+}
+
+.misivisi-container{
+	text-align: center;
+	margin: auto;
+	margin-bottom: 10px;
 }
 
 footer{
