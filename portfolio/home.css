@@ -81,11 +81,12 @@ li a:hover:not(.active) {
   background-color: #4CAF50;
 }
 
+h2{text-align: center;}
+
 footer{
   background-color: #9999ff;
   padding: 10px;
   text-align: center;
-  margin: 20px;
 }
 
 .intro{
@@ -96,50 +97,21 @@ footer{
 	margin-bottom: 20%;
 }
 
-/*typwriter effect*/
-.intro h4 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation:
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: black; }
-}
-/*typwriter effect end*/
-
-/*========progress bar========*/
-/* Container for skill bars */
-.container {
-  width: 100%; /* Full width */
-  background-color: #ddd;
-}
-
 .skills {
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
-	margin: 20px;
-	/*margin-left: 2em;*/
-	/*margin-right: 2em;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . .";
+	background-color: blue;
+	border: 1px solid black;
 }
 
-.html {width: 90%; background-color: #ef6026;}
-.css {width: 80%; background-color: #25a1e1;}
-.js {width: 65%; background-color: #e8d44c;}
-.php {width: 60%; background-color: #7378af;}
-/*========progress bar========*/
+.skills > h3 {
+	text-align: center;
+}
+
+.skills_html {background-color: #ef6026;}
+.skills_css {background-color: #25a1e1;}
+.skills_js {background-color: #e8d44c;}
